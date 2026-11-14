@@ -1,0 +1,64 @@
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Large datasets
+data/
+dataset/
+temp_inspect/
+*.npy
+*.npz
+
+# Model checkpoints
+*.pth
+*.pt
+*.h5
+*.pkl
+*.joblib
+
+# Temporary files
+*.log
+*.tmp
+# ZIP archives
+dataset.zip
+scripts.zip
+# IDE files
+.vscode/
+# Raw research datasets
+dataset.zip
+scripts.zip
+/Baseline_CMT1A-BioStampNPoint2023/
+/Longitudinal_CMT1A-BioStampNPoint2023/
+/A multi-sensor human gait dataset/
+/ClinicData_CMT1A-BioStampNPoint2023.csv
+
+# Generated data and patient-level outputs
+/processed/
+/temp_inspect/
+/data/
+/logs/
+/results/
+
+# Large model and data files
+*.npy
+*.npz
+*.pth
+*.pt
+*.h5
+*.pkl
+*.joblib
+
+# Python environment
+venv/
+.venv/
+__pycache__/
+literature/
+data_file_list.txt
+dataset_files.txt
+dataset_structure.txt
